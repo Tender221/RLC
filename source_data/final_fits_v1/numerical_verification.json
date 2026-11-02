@@ -1,0 +1,632 @@
+{
+  "complete": true,
+  "models": 30,
+  "cohort_counts": {
+    "cifar10_er": 10,
+    "cifar100_er": 10,
+    "cifar10_mir": 5,
+    "tinyimagenet_er": 5
+  },
+  "method_rows": 180,
+  "new_fits": 60,
+  "source_hashes_checked": 108,
+  "source_zip_sha256": "e7bb1c26bf059f87acdb6c2b43609927a062d53bc9b0370f154efefe38b2902e",
+  "source_manifest_sha256": "c0f1ee8ee9ca81a96bd1bc0d70bb3cf02d8e209dd651e8099030dba0f7ff830a",
+  "fits_sha256": "3a5a419a9d784374982f4bb3a35ea2b7962311f4d094cd00c8bcf95efa89fffa",
+  "analysis_sha256": "67b846c4a95963c7b4eee2380b923be022da541708bbab348a19de2c7cb32167",
+  "source_data_sha256": "239e9bf7a81de4c4e06a59982df28755ce531c9feacf8c212d6c9c7f43e5fcdd",
+  "audit_script_sha256": "c1739caae396346f351d10e15a4c54a0d728857f66d30de31ec62c5c36df4679",
+  "legacy_method_rows_reproduced": 120,
+  "all_predictions_metrics_ece_bins_and_counts_recomputed": true,
+  "positive_temperature_predictions_equal_raw": true,
+  "all_four_cohort_summaries_verified": true,
+  "nominal_paired_intervals_verified": true,
+  "fit_status_counts": {
+    "interior": 60
+  },
+  "maximum_interior_gradient": 4.321301186724698e-16,
+  "maximum_objective_gap": 6.661338147750939e-16,
+  "chronology_evidence": "Driver and pipeline test enforce persisted complete fits before benchmark evaluation; manifest and fits hashes agree.",
+  "fits": {
+    "cifar10_er_1810": {
+      "auto_mixture": {
+        "coefficient": 0.7709602561127777,
+        "status": "interior",
+        "objective": 1.1806807718780354,
+        "derivative": 1.9773845454424448e-16,
+        "curvature": 0.40719499426891453,
+        "independent_minimum": 1.1806807718780354,
+        "objective_gap": 0.0
+      },
+      "temperature": {
+        "coefficient": 0.9076016303619838,
+        "status": "interior",
+        "objective": 1.318735872624592,
+        "derivative": -7.300553125899656e-17,
+        "curvature": 1.1217012394096098,
+        "independent_minimum": 1.318735872624592,
+        "objective_gap": 0.0
+      }
+    },
+    "cifar10_er_1820": {
+      "auto_mixture": {
+        "coefficient": 0.8005441643593121,
+        "status": "interior",
+        "objective": 1.4154518981939581,
+        "derivative": 1.9341154806654061e-16,
+        "curvature": 0.42524226496830436,
+        "independent_minimum": 1.4154518981939581,
+        "objective_gap": 0.0
+      },
+      "temperature": {
+        "coefficient": 0.8841125353611523,
+        "status": "interior",
+        "objective": 1.5701104117307343,
+        "derivative": 3.134949767418076e-16,
+        "curvature": 1.0582035972843977,
+        "independent_minimum": 1.5701104117307343,
+        "objective_gap": 0.0
+      }
+    },
+    "cifar10_er_1830": {
+      "auto_mixture": {
+        "coefficient": 0.6267261489681728,
+        "status": "interior",
+        "objective": 1.2794222132565993,
+        "derivative": 1.538912133061099e-16,
+        "curvature": 0.3715146927308022,
+        "independent_minimum": 1.279422213256599,
+        "objective_gap": 2.220446049250313e-16
+      },
+      "temperature": {
+        "coefficient": 0.7948014334000479,
+        "status": "interior",
+        "objective": 1.335306760982039,
+        "derivative": 5.592668683934931e-17,
+        "curvature": 1.3793490638650585,
+        "independent_minimum": 1.335306760982039,
+        "objective_gap": 0.0
+      }
+    },
+    "cifar100_er_910": {
+      "auto_mixture": {
+        "coefficient": 0.9743197962986356,
+        "status": "interior",
+        "objective": 0.9260882851954918,
+        "derivative": 8.083718821152788e-17,
+        "curvature": 0.44310464417993045,
+        "independent_minimum": 0.9260882851954918,
+        "objective_gap": 0.0
+      },
+      "temperature": {
+        "coefficient": 1.136108539150399,
+        "status": "interior",
+        "objective": 1.2042092856588602,
+        "derivative": 4.245727193673707e-17,
+        "curvature": 1.1659403905326595,
+        "independent_minimum": 1.2042092856588602,
+        "objective_gap": 0.0
+      }
+    },
+    "cifar100_er_920": {
+      "auto_mixture": {
+        "coefficient": 0.8324084063568058,
+        "status": "interior",
+        "objective": 1.0417662438815474,
+        "derivative": -3.0927462335700487e-17,
+        "curvature": 0.5096714392190578,
+        "independent_minimum": 1.0417662438815474,
+        "objective_gap": 0.0
+      },
+      "temperature": {
+        "coefficient": 1.2283203117761659,
+        "status": "interior",
+        "objective": 1.2473328045693644,
+        "derivative": -1.9552990823762775e-16,
+        "curvature": 0.9682291036667613,
+        "independent_minimum": 1.2473328045693644,
+        "objective_gap": 0.0
+      }
+    },
+    "cifar100_er_930": {
+      "auto_mixture": {
+        "coefficient": 0.9792946279904735,
+        "status": "interior",
+        "objective": 0.8801722495978234,
+        "derivative": 5.211971797196475e-17,
+        "curvature": 0.46050596906692043,
+        "independent_minimum": 0.8801722495978231,
+        "objective_gap": 2.220446049250313e-16
+      },
+      "temperature": {
+        "coefficient": 1.1694258027272948,
+        "status": "interior",
+        "objective": 1.157451575371617,
+        "derivative": -1.1943239466451865e-17,
+        "curvature": 1.0965823402729649,
+        "independent_minimum": 1.1574515753716166,
+        "objective_gap": 4.440892098500626e-16
+      }
+    },
+    "cifar10_er_3010": {
+      "auto_mixture": {
+        "coefficient": 1.2960543073966067,
+        "status": "interior",
+        "objective": 1.3435829880871637,
+        "derivative": 2.4526779192177037e-16,
+        "curvature": 0.3605513884547975,
+        "independent_minimum": 1.3435829880871635,
+        "objective_gap": 2.220446049250313e-16
+      },
+      "temperature": {
+        "coefficient": 0.6372570978989893,
+        "status": "interior",
+        "objective": 1.5885324072110465,
+        "derivative": -7.71508517106087e-17,
+        "curvature": 1.9864969902181144,
+        "independent_minimum": 1.5885324072110465,
+        "objective_gap": 0.0
+      }
+    },
+    "cifar10_er_3020": {
+      "auto_mixture": {
+        "coefficient": 1.0572025011199333,
+        "status": "interior",
+        "objective": 1.3254134628199574,
+        "derivative": 1.445176278578689e-16,
+        "curvature": 0.3808065205688964,
+        "independent_minimum": 1.3254134628199572,
+        "objective_gap": 2.220446049250313e-16
+      },
+      "temperature": {
+        "coefficient": 0.7452818611082412,
+        "status": "interior",
+        "objective": 1.5286985778347086,
+        "derivative": 3.162864110376714e-16,
+        "curvature": 1.4071766142259732,
+        "independent_minimum": 1.5286985778347082,
+        "objective_gap": 4.440892098500626e-16
+      }
+    },
+    "cifar10_er_3030": {
+      "auto_mixture": {
+        "coefficient": 0.9266864379652229,
+        "status": "interior",
+        "objective": 1.1507422694915594,
+        "derivative": 2.369816073939376e-16,
+        "curvature": 0.4080538105715937,
+        "independent_minimum": 1.1507422694915594,
+        "objective_gap": 0.0
+      },
+      "temperature": {
+        "coefficient": 0.8228560670472265,
+        "status": "interior",
+        "objective": 1.3299418492948825,
+        "derivative": 1.8899417521484755e-16,
+        "curvature": 1.3999380865665485,
+        "independent_minimum": 1.329941849294882,
+        "objective_gap": 4.440892098500626e-16
+      }
+    },
+    "cifar10_er_3040": {
+      "auto_mixture": {
+        "coefficient": 1.0717528304512496,
+        "status": "interior",
+        "objective": 1.3298887842908593,
+        "derivative": 2.326068690395542e-16,
+        "curvature": 0.3698479857267301,
+        "independent_minimum": 1.3298887842908593,
+        "objective_gap": 0.0
+      },
+      "temperature": {
+        "coefficient": 0.7362745545454477,
+        "status": "interior",
+        "objective": 1.5455734813741961,
+        "derivative": 3.05193203844116e-17,
+        "curvature": 1.617301002133102,
+        "independent_minimum": 1.5455734813741961,
+        "objective_gap": 0.0
+      }
+    },
+    "cifar10_er_3050": {
+      "auto_mixture": {
+        "coefficient": 0.9069512022088537,
+        "status": "interior",
+        "objective": 1.2878925735877058,
+        "derivative": 3.7619565761127354e-17,
+        "curvature": 0.4625305250294374,
+        "independent_minimum": 1.2878925735877051,
+        "objective_gap": 6.661338147750939e-16
+      },
+      "temperature": {
+        "coefficient": 0.8687764370694808,
+        "status": "interior",
+        "objective": 1.4998941606224858,
+        "derivative": 2.8839676534481234e-16,
+        "curvature": 1.144332347972149,
+        "independent_minimum": 1.4998941606224858,
+        "objective_gap": 0.0
+      }
+    },
+    "cifar10_er_3060": {
+      "auto_mixture": {
+        "coefficient": 1.0349026121741125,
+        "status": "interior",
+        "objective": 1.405483794039535,
+        "derivative": 2.873126199044043e-17,
+        "curvature": 0.3103745622943609,
+        "independent_minimum": 1.4054837940395348,
+        "objective_gap": 2.220446049250313e-16
+      },
+      "temperature": {
+        "coefficient": 0.7666022814228441,
+        "status": "interior",
+        "objective": 1.5563762269916235,
+        "derivative": 2.572965757549089e-16,
+        "curvature": 1.3425617897317466,
+        "independent_minimum": 1.5563762269916235,
+        "objective_gap": 0.0
+      }
+    },
+    "cifar10_er_3070": {
+      "auto_mixture": {
+        "coefficient": 1.1165060073672972,
+        "status": "interior",
+        "objective": 1.0589278896234764,
+        "derivative": 2.1204293231299503e-16,
+        "curvature": 0.439237912286484,
+        "independent_minimum": 1.0589278896234764,
+        "objective_gap": 0.0
+      },
+      "temperature": {
+        "coefficient": 0.7464376997298914,
+        "status": "interior",
+        "objective": 1.3143153226158708,
+        "derivative": 2.548393166800044e-16,
+        "curvature": 1.7428371638500142,
+        "independent_minimum": 1.3143153226158708,
+        "objective_gap": 0.0
+      }
+    },
+    "cifar100_er_3110": {
+      "auto_mixture": {
+        "coefficient": 1.0319407020978968,
+        "status": "interior",
+        "objective": 1.1590942986109287,
+        "derivative": -1.1366917540166784e-17,
+        "curvature": 0.516811778927023,
+        "independent_minimum": 1.1590942986109283,
+        "objective_gap": 4.440892098500626e-16
+      },
+      "temperature": {
+        "coefficient": 1.1118424709315646,
+        "status": "interior",
+        "objective": 1.5332338044737297,
+        "derivative": 3.6740738652109246e-16,
+        "curvature": 1.4091153327713948,
+        "independent_minimum": 1.5332338044737295,
+        "objective_gap": 2.220446049250313e-16
+      }
+    },
+    "cifar100_er_3120": {
+      "auto_mixture": {
+        "coefficient": 0.9422628399437083,
+        "status": "interior",
+        "objective": 1.3861345203963131,
+        "derivative": -1.2444461387110246e-16,
+        "curvature": 0.5679933476766407,
+        "independent_minimum": 1.3861345203963131,
+        "objective_gap": 0.0
+      },
+      "temperature": {
+        "coefficient": 1.098790925827807,
+        "status": "interior",
+        "objective": 1.7201464542968854,
+        "derivative": 4.292761289091934e-16,
+        "curvature": 1.535230869432828,
+        "independent_minimum": 1.7201464542968854,
+        "objective_gap": 0.0
+      }
+    },
+    "cifar100_er_3130": {
+      "auto_mixture": {
+        "coefficient": 1.0115617667337178,
+        "status": "interior",
+        "objective": 0.9194560941936433,
+        "derivative": -3.7765499186985053e-17,
+        "curvature": 0.43924460606971344,
+        "independent_minimum": 0.9194560941936432,
+        "objective_gap": 1.1102230246251565e-16
+      },
+      "temperature": {
+        "coefficient": 1.179031399654345,
+        "status": "interior",
+        "objective": 1.1958533766445745,
+        "derivative": -9.443851650398068e-17,
+        "curvature": 1.026368388105343,
+        "independent_minimum": 1.1958533766445745,
+        "objective_gap": 0.0
+      }
+    },
+    "cifar100_er_3140": {
+      "auto_mixture": {
+        "coefficient": 0.8248587800550569,
+        "status": "interior",
+        "objective": 0.8709918649686839,
+        "derivative": 1.3019154109033245e-16,
+        "curvature": 0.3907749779718851,
+        "independent_minimum": 0.8709918649686839,
+        "objective_gap": 0.0
+      },
+      "temperature": {
+        "coefficient": 1.1708700544667217,
+        "status": "interior",
+        "objective": 1.022554727863048,
+        "derivative": -1.1768544450640894e-16,
+        "curvature": 1.0096290567393096,
+        "independent_minimum": 1.022554727863048,
+        "objective_gap": 0.0
+      }
+    },
+    "cifar100_er_3150": {
+      "auto_mixture": {
+        "coefficient": 0.9497457157375795,
+        "status": "interior",
+        "objective": 0.833416957180042,
+        "derivative": -8.69470828188097e-17,
+        "curvature": 0.44402939338484715,
+        "independent_minimum": 0.8334169571800417,
+        "objective_gap": 3.3306690738754696e-16
+      },
+      "temperature": {
+        "coefficient": 1.1887115311426801,
+        "status": "interior",
+        "objective": 1.0843100601259155,
+        "derivative": 3.798638485210279e-17,
+        "curvature": 0.9704514711589202,
+        "independent_minimum": 1.0843100601259152,
+        "objective_gap": 2.220446049250313e-16
+      }
+    },
+    "cifar100_er_3160": {
+      "auto_mixture": {
+        "coefficient": 0.9923508068604316,
+        "status": "interior",
+        "objective": 1.0672443183671114,
+        "derivative": -7.296423074271726e-18,
+        "curvature": 0.41381361870080596,
+        "independent_minimum": 1.0672443183671112,
+        "objective_gap": 2.220446049250313e-16
+      },
+      "temperature": {
+        "coefficient": 1.1084249473009047,
+        "status": "interior",
+        "objective": 1.336677987084772,
+        "derivative": -5.95131069773096e-17,
+        "curvature": 1.3344485615588206,
+        "independent_minimum": 1.336677987084772,
+        "objective_gap": 0.0
+      }
+    },
+    "cifar100_er_3170": {
+      "auto_mixture": {
+        "coefficient": 0.8429111933152806,
+        "status": "interior",
+        "objective": 1.14728960523218,
+        "derivative": 7.023785206606898e-17,
+        "curvature": 0.5235840427706976,
+        "independent_minimum": 1.14728960523218,
+        "objective_gap": 0.0
+      },
+      "temperature": {
+        "coefficient": 1.2305667603325308,
+        "status": "interior",
+        "objective": 1.3677724103545186,
+        "derivative": -5.011075742312697e-17,
+        "curvature": 1.0337872660430172,
+        "independent_minimum": 1.3677724103545186,
+        "objective_gap": 0.0
+      }
+    },
+    "cifar10_mir_3210": {
+      "auto_mixture": {
+        "coefficient": 0.645297055930538,
+        "status": "interior",
+        "objective": 0.9302788984136888,
+        "derivative": 1.556440339648047e-16,
+        "curvature": 0.37195206131859715,
+        "independent_minimum": 0.9302788984136887,
+        "objective_gap": 1.1102230246251565e-16
+      },
+      "temperature": {
+        "coefficient": 1.1495830406820455,
+        "status": "interior",
+        "objective": 1.0089771292671526,
+        "derivative": -3.2974019906061956e-17,
+        "curvature": 0.5977688416156395,
+        "independent_minimum": 1.0089771292671523,
+        "objective_gap": 2.220446049250313e-16
+      }
+    },
+    "cifar10_mir_3220": {
+      "auto_mixture": {
+        "coefficient": 0.6440826351525639,
+        "status": "interior",
+        "objective": 1.2297533809725656,
+        "derivative": 1.6725040492756204e-16,
+        "curvature": 0.41949004832561776,
+        "independent_minimum": 1.2297533809725654,
+        "objective_gap": 2.220446049250313e-16
+      },
+      "temperature": {
+        "coefficient": 0.8270505447384058,
+        "status": "interior",
+        "objective": 1.313690036044732,
+        "derivative": 4.321301186724698e-16,
+        "curvature": 1.2641181245118251,
+        "independent_minimum": 1.3136900360447317,
+        "objective_gap": 2.220446049250313e-16
+      }
+    },
+    "cifar10_mir_3230": {
+      "auto_mixture": {
+        "coefficient": 0.45951557051876757,
+        "status": "interior",
+        "objective": 1.1787932212666294,
+        "derivative": -5.669435951141447e-17,
+        "curvature": 0.39601351786886435,
+        "independent_minimum": 1.1787932212666292,
+        "objective_gap": 2.220446049250313e-16
+      },
+      "temperature": {
+        "coefficient": 0.9594922915816562,
+        "status": "interior",
+        "objective": 1.2242220596894462,
+        "derivative": 2.17023111629469e-16,
+        "curvature": 0.8784957645771515,
+        "independent_minimum": 1.2242220596894462,
+        "objective_gap": 0.0
+      }
+    },
+    "cifar10_mir_3240": {
+      "auto_mixture": {
+        "coefficient": 0.9102073834937674,
+        "status": "interior",
+        "objective": 0.9143336244180453,
+        "derivative": 3.3072440619747356e-17,
+        "curvature": 0.31777294407033935,
+        "independent_minimum": 0.9143336244180453,
+        "objective_gap": 0.0
+      },
+      "temperature": {
+        "coefficient": 1.0051934028057188,
+        "status": "interior",
+        "objective": 1.0590880880771385,
+        "derivative": 2.2498256217507065e-16,
+        "curvature": 0.7467947237240044,
+        "independent_minimum": 1.0590880880771385,
+        "objective_gap": 0.0
+      }
+    },
+    "cifar10_mir_3250": {
+      "auto_mixture": {
+        "coefficient": 0.7501157578590065,
+        "status": "interior",
+        "objective": 1.3405472172057311,
+        "derivative": 1.730655708760767e-16,
+        "curvature": 0.40667817129615136,
+        "independent_minimum": 1.340547217205731,
+        "objective_gap": 2.220446049250313e-16
+      },
+      "temperature": {
+        "coefficient": 0.8783416516012763,
+        "status": "interior",
+        "objective": 1.4683527800059017,
+        "derivative": 1.982489982811896e-16,
+        "curvature": 1.1245093822443142,
+        "independent_minimum": 1.4683527800059017,
+        "objective_gap": 0.0
+      }
+    },
+    "tinyimagenet_er_5110": {
+      "auto_mixture": {
+        "coefficient": 0.6993957620338704,
+        "status": "interior",
+        "objective": 0.1564821737626654,
+        "derivative": 1.5603449265737392e-17,
+        "curvature": 0.24753850921490292,
+        "independent_minimum": 0.1564821737626654,
+        "objective_gap": 0.0
+      },
+      "temperature": {
+        "coefficient": 1.9753217980937219,
+        "status": "interior",
+        "objective": 0.15658952711297563,
+        "derivative": -1.9443060376392102e-17,
+        "curvature": 0.06118048819986267,
+        "independent_minimum": 0.15658952711297563,
+        "objective_gap": 0.0
+      }
+    },
+    "tinyimagenet_er_5120": {
+      "auto_mixture": {
+        "coefficient": 0.8813604138168696,
+        "status": "interior",
+        "objective": 0.2108682092572146,
+        "derivative": -4.2522467463926067e-17,
+        "curvature": 0.2667076193710741,
+        "independent_minimum": 0.2108682092572146,
+        "objective_gap": 0.0
+      },
+      "temperature": {
+        "coefficient": 1.6294005455522091,
+        "status": "interior",
+        "objective": 0.3061742427099427,
+        "derivative": 1.023213106219107e-16,
+        "curvature": 0.1825681046832116,
+        "independent_minimum": 0.3061742427099427,
+        "objective_gap": 0.0
+      }
+    },
+    "tinyimagenet_er_5130": {
+      "auto_mixture": {
+        "coefficient": 0.7512642266488465,
+        "status": "interior",
+        "objective": 0.18778286383688333,
+        "derivative": 9.689965660099055e-17,
+        "curvature": 0.28733947406661875,
+        "independent_minimum": 0.18778286383688333,
+        "objective_gap": 0.0
+      },
+      "temperature": {
+        "coefficient": 1.7841840509177116,
+        "status": "interior",
+        "objective": 0.2244968936359142,
+        "derivative": 2.5913426334858413e-17,
+        "curvature": 0.11461019704439204,
+        "independent_minimum": 0.2244968936359142,
+        "objective_gap": 0.0
+      }
+    },
+    "tinyimagenet_er_5140": {
+      "auto_mixture": {
+        "coefficient": 0.7361886996042808,
+        "status": "interior",
+        "objective": 0.19172679849288612,
+        "derivative": 3.4733857305570816e-18,
+        "curvature": 0.2529087698695409,
+        "independent_minimum": 0.19172679849288612,
+        "objective_gap": 0.0
+      },
+      "temperature": {
+        "coefficient": 1.610041601166225,
+        "status": "interior",
+        "objective": 0.22324878789187422,
+        "derivative": 3.4694469519536088e-18,
+        "curvature": 0.15727779351145937,
+        "independent_minimum": 0.22324878789187422,
+        "objective_gap": 0.0
+      }
+    },
+    "tinyimagenet_er_5150": {
+      "auto_mixture": {
+        "coefficient": 0.733432386179526,
+        "status": "interior",
+        "objective": 0.17070685544824912,
+        "derivative": 5.907095306112501e-17,
+        "curvature": 0.2706088043297391,
+        "independent_minimum": 0.1707068554482491,
+        "objective_gap": 2.7755575615628914e-17
+      },
+      "temperature": {
+        "coefficient": 1.5420072149547361,
+        "status": "interior",
+        "objective": 0.22311358222535752,
+        "derivative": 3.039558276101928e-17,
+        "curvature": 0.16154594558435423,
+        "independent_minimum": 0.22311358222535752,
+        "objective_gap": 0.0
+      }
+    }
+  }
+}

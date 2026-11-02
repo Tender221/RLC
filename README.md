@@ -81,6 +81,25 @@ Five existing MIR models add the other five models in the paper's 30-model final
 
 The [source-data directory](source_data/README.md) supplies the paper's F55/F57/F58 per-run accuracy, old/new accuracy, NLL, ECE, capacity/coverage and scalar-sweep data. No models, image data or manuscript files are distributed.
 
+## Memory-fitted comparison controls
+
+Add `--alternative-fits` to the cache command to fit automatic mixture strength and positive temperature on the same class-balanced memory likelihood:
+
+```bash
+python -m rlc.calibrate --memory runs/cifar10_seed1810/memory_logits.npz --evaluation runs/cifar10_seed1810/benchmark_logits.npz --output runs/cifar10_alternatives --alternative-fits
+```
+
+All coefficients are saved before the evaluation cache is opened. The default six-method command remains unchanged. The mixture retains the nominal equal incoming/replay proportion and unit smoothing; its strength is estimated from memory. Temperature fits positive inverse temperature and preserves every predicted class.
+
+| Existing-model cohort | Models | RLC accuracy | Auto mixture accuracy | Auto mixture minus RLC, paired 95% CI |
+|---|---:|---:|---:|---:|
+| CIFAR-10 ER | 10 | 38.733% | 38.927% | +0.194 [-0.150,0.538] pp |
+| CIFAR-100 ER | 10 | 12.757% | 12.977% | +0.220 [-0.012,0.452] pp |
+| CIFAR-10 MIR | 5 | 40.780% | 40.920% | +0.140 [-0.047,0.327] pp |
+| Tiny ImageNet ER | 5 | 7.544% | 7.616% | +0.072 [-0.104,0.248] pp |
+
+These are differences of measured means, not an equivalence test. Automatic mixture has lower NLL/ECE than RLC on CIFAR-100 and Tiny ImageNet. RLC uses the known old/new partition without a nominal mixing proportion and preserves within-group logit differences. Per-model coefficients, six-method metrics and independent numerical verification are in `source_data/final_fits_v1/`.
+
 ## Tiny ImageNet
 
 Download the official `tiny-imagenet-200.zip` from the [Stanford CS231n dataset endpoint](http://cs231n.stanford.edu/tiny-imagenet-200.zip) into `data/`. Required SHA256:

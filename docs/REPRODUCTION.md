@@ -35,3 +35,9 @@ Boundary correction runs after each task-final ordinary SGD update except task 0
 NPZ cache keys are documented in README. `rlc.calibrate` creates a new output directory, fits from memory and persists `fitting.json` before opening benchmark logits/labels, then writes per-method metrics. It records input-file SHA256. This supports final calibration of externally trained MIR and other learners; full baseline training is not exposed. For the paper's five MIR models, seed/order pairs are 3210/321 through 3250/325 and fitting uses saved post-insertion memory. Supply your corresponding external memory and benchmark logits; no authors' model files are required or included.
 
 Fresh checkpoints include Python/NumPy RNG state and are loaded with PyTorch pickle support for exact resume. Only load checkpoints that you created or otherwise trust. Portable numeric NPZ cache loading uses `allow_pickle=False`.
+
+## Optional final controls
+
+`--alternative-fits` adds two memory-only fits with weights `1/(represented_classes * class_count)`. Auto mixture uses the original smoothed/equal-mixture prior and fits real tau in `z-tau log(pi)`; its numerical guard is [-1048576,1048576]. Temperature fits inverse temperature beta in `beta*z`, with beta in [0.000001,1000000]. Initial brackets are [-1,1] and [0.5,2]; expand by factors of two to the guards and bisect 80 times. Guard solutions are reported as such. Constant directions return identity (tau=0 or beta=1). Fitting uses CPU double precision; the log-domain derivative sign handles softmax saturation. All sixty reported fits are interior. This is class-balanced memory temperature fitting, rather than heldout-label temperature selection.
+
+The primary model inventory and memory timing remain unchanged. RLC/fixed-mixture/affine operations are the original operators; the new study adds no trained models or seed selection. Intervals are nominal paired Student-t 95% intervals within each learner/dataset cohort.

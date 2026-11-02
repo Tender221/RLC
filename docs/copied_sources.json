@@ -118,5 +118,35 @@
     "release": "configs/frequency_selection.json",
     "sha256": "d40fe8db155bbafba699a9a4a42d8a1536bdd62ef9b9126aaeb4f13b5089f1f6",
     "unchanged": true
+  },
+  {
+    "source": "scripts/alternative_fits.py",
+    "release": "scripts/alternative_fits.py",
+    "sha256": "541c533bc587544dae307707f57cdebf35e7223f36fb49230f231e187ec91604",
+    "unchanged": true
+  },
+  {
+    "source": "tests/test_alternative_fits.py",
+    "release": "tests/test_alternative_fits.py",
+    "sha256": "453f071be55668a14e7e0cb6a3c9cc930aaceb7964d3e260439ca0279ca19c40",
+    "unchanged": true
+  },
+  {
+    "source": "results/final_fits_v1/source_data.csv",
+    "release": "source_data/final_fits_v1/source_data.csv",
+    "sha256": "239e9bf7a81de4c4e06a59982df28755ce531c9feacf8c212d6c9c7f43e5fcdd",
+    "unchanged": true
+  },
+  {
+    "source": "results/final_fits_v1/fits.json",
+    "release": "source_data/final_fits_v1/fitted_coefficients.json",
+    "sha256": "3a5a419a9d784374982f4bb3a35ea2b7962311f4d094cd00c8bcf95efa89fffa",
+    "unchanged": true
+  },
+  {
+    "source": "results/final_fits_v1/qa.json",
+    "release": "source_data/final_fits_v1/numerical_verification.json",
+    "sha256": "7ad3929a452d5dae2ef370a684b543e9359ed41d38b6f7da5bb3ee049dd58b99",
+    "unchanged": true
   }
 ]

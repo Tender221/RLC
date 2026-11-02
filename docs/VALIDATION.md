@@ -30,3 +30,9 @@ Tests cover exact 32-pixel training-state/replay/RNG parity with the frozen CIFA
 `copied_sources.json` verifies 20 original files byte-for-byte (including three original test modules, four CSVs and the frequency-selection file). Relative source paths identify their provenance; historical experiment-driver entrypoints that require internal checkpoints/manifests are not advertised or included. Full baseline training/tuning, heldout-image reference pipelines, average-incremental/forgetting reconstruction, historical audit chains and publication figures are outside this initial runnable release.
 
 No image arrays, trained models, environments, credentials, machine logs, private instructions/review documents or manuscript are included. A project license was not inferred. Parent publication review should inspect the export and remote repository before updating code-availability declarations.
+
+## Version 0.2.0 final controls
+
+The standalone public tree passed 90 CPU tests (8.19s), including 48 scalar-fit cases and a cache-workflow test that changes evaluation labels while requiring identical saved fits. The original 41 tests remain included. The optional fits preserve the default six-method API.
+
+The fixed-cache study fitted sixty coefficients on thirty existing models, then evaluated 180 rows. Independent NumPy/SciPy reconstruction verified all rows, priors, objectives, prediction invariance, legacy scores and paired summaries; maximum gradient 4.32e-16, maximum objective gap 6.66e-16. No new network training was used. Numerical verification is shipped with the source data; the full historical model/cache audit pipeline remains outside this portable release.

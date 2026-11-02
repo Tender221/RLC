@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite the accompanying manuscript when using this software."
 type: software
 title: "Replay Likelihood Correction for Class-Incremental Learning"
-version: 0.1.0
+version: 0.2.0
 date-released: 2026-11-02
 repository-code: "https://github.com/Tender221/RLC"
 authors:
