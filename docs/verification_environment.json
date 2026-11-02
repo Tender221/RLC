@@ -1,0 +1,10 @@
+{
+  "torch": "2.11.0+cu128",
+  "torchvision": "0.26.0+cu128",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "Pillow": "12.2.0",
+  "pytest": "9.0.3",
+  "setuptools": "79.0.1",
+  "python": "3.11.14"
+}

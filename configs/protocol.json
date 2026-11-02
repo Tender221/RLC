@@ -1,0 +1,20 @@
+{
+  "model": "resnet18_cifar_stem",
+  "optimizer": "sgd",
+  "learning_rate": 0.05,
+  "momentum": 0.9,
+  "weight_decay": 0,
+  "batch_size": 32,
+  "replay_batch_size": 32,
+  "memory_size": 500,
+  "passes": 1,
+  "split_seed": 0,
+  "calibration_batch_size": 128,
+  "calibration_timing": "after_final_sgd_before_incoming_reservoir_insertion",
+  "ece_bins": 15,
+  "frequency_taus": {
+    "la_memory": 0,
+    "la_mixture": 1,
+    "group_la": 1
+  }
+}

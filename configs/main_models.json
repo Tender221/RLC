@@ -1,0 +1,247 @@
+[
+  {
+    "dataset": "cifar10",
+    "learner": "er",
+    "seed": 1810,
+    "order_seed": 181,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "cifar10",
+    "learner": "er",
+    "seed": 1820,
+    "order_seed": 182,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "cifar10",
+    "learner": "er",
+    "seed": 1830,
+    "order_seed": 183,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "cifar10",
+    "learner": "er",
+    "seed": 3010,
+    "order_seed": 301,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "cifar10",
+    "learner": "er",
+    "seed": 3020,
+    "order_seed": 302,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "cifar10",
+    "learner": "er",
+    "seed": 3030,
+    "order_seed": 303,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "cifar10",
+    "learner": "er",
+    "seed": 3040,
+    "order_seed": 304,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "cifar10",
+    "learner": "er",
+    "seed": 3050,
+    "order_seed": 305,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "cifar10",
+    "learner": "er",
+    "seed": 3060,
+    "order_seed": 306,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "cifar10",
+    "learner": "er",
+    "seed": 3070,
+    "order_seed": 307,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "cifar100",
+    "learner": "er",
+    "seed": 910,
+    "order_seed": 91,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "cifar100",
+    "learner": "er",
+    "seed": 920,
+    "order_seed": 92,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "cifar100",
+    "learner": "er",
+    "seed": 930,
+    "order_seed": 93,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "cifar100",
+    "learner": "er",
+    "seed": 3110,
+    "order_seed": 311,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "cifar100",
+    "learner": "er",
+    "seed": 3120,
+    "order_seed": 312,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "cifar100",
+    "learner": "er",
+    "seed": 3130,
+    "order_seed": 313,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "cifar100",
+    "learner": "er",
+    "seed": 3140,
+    "order_seed": 314,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "cifar100",
+    "learner": "er",
+    "seed": 3150,
+    "order_seed": 315,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "cifar100",
+    "learner": "er",
+    "seed": 3160,
+    "order_seed": 316,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "cifar100",
+    "learner": "er",
+    "seed": 3170,
+    "order_seed": 317,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "tinyimagenet",
+    "learner": "er",
+    "seed": 5110,
+    "order_seed": 511,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "tinyimagenet",
+    "learner": "er",
+    "seed": 5120,
+    "order_seed": 512,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "tinyimagenet",
+    "learner": "er",
+    "seed": 5130,
+    "order_seed": 513,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "tinyimagenet",
+    "learner": "er",
+    "seed": 5140,
+    "order_seed": 514,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "tinyimagenet",
+    "learner": "er",
+    "seed": 5150,
+    "order_seed": 515,
+    "memory_size": 500,
+    "workflow": "fresh_er_training"
+  },
+  {
+    "dataset": "cifar10",
+    "learner": "mir",
+    "seed": 3210,
+    "order_seed": 321,
+    "memory_size": 500,
+    "workflow": "external_mir_logits",
+    "memory_timing": "saved_post_insertion"
+  },
+  {
+    "dataset": "cifar10",
+    "learner": "mir",
+    "seed": 3220,
+    "order_seed": 322,
+    "memory_size": 500,
+    "workflow": "external_mir_logits",
+    "memory_timing": "saved_post_insertion"
+  },
+  {
+    "dataset": "cifar10",
+    "learner": "mir",
+    "seed": 3230,
+    "order_seed": 323,
+    "memory_size": 500,
+    "workflow": "external_mir_logits",
+    "memory_timing": "saved_post_insertion"
+  },
+  {
+    "dataset": "cifar10",
+    "learner": "mir",
+    "seed": 3240,
+    "order_seed": 324,
+    "memory_size": 500,
+    "workflow": "external_mir_logits",
+    "memory_timing": "saved_post_insertion"
+  },
+  {
+    "dataset": "cifar10",
+    "learner": "mir",
+    "seed": 3250,
+    "order_seed": 325,
+    "memory_size": 500,
+    "workflow": "external_mir_logits",
+    "memory_timing": "saved_post_insertion"
+  }
+]

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript when using this software."
+type: software
+title: "Replay Likelihood Correction for Class-Incremental Learning"
+version: 0.1.0
+date-released: 2026-11-02
+repository-code: "https://github.com/Tender221/RLC"
+authors:
+  - family-names: Wan
+    given-names: Enhui
+    orcid: "https://orcid.org/0009-0000-1395-3212"
+    affiliation: "Beijing University of Posts and Telecommunications"
+  - family-names: Wang
+    given-names: Xiaowan
+    orcid: "https://orcid.org/0009-0001-3779-7776"
+    affiliation: "Beijing University of Posts and Telecommunications"

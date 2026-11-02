@@ -1,0 +1,122 @@
+[
+  {
+    "source": "scripts/replay_bias.py",
+    "release": "scripts/replay_bias.py",
+    "sha256": "eecbce11de65f546c36d1b5289adcf2b0d3cd5aff6e84271dc1d82b0c3848f99",
+    "unchanged": true
+  },
+  {
+    "source": "scripts/boundary_bias_policy.py",
+    "release": "scripts/boundary_bias_policy.py",
+    "sha256": "54a4470d5cf9bcc32729b16191e0ac05a421c43c7f571ff6b6c023ec5d83385f",
+    "unchanged": true
+  },
+  {
+    "source": "scripts/posthoc_calibration.py",
+    "release": "scripts/posthoc_calibration.py",
+    "sha256": "cf921586ee7fe9a709c43ceeeb536d405f9b594311f0be99d68210ebcf4c392b",
+    "unchanged": true
+  },
+  {
+    "source": "scripts/bic_component.py",
+    "release": "scripts/bic_component.py",
+    "sha256": "1005e7d65742a971af019b505c2d40fc3ca78beb0d58ed2f0f8138d865473622",
+    "unchanged": true
+  },
+  {
+    "source": "scripts/augmented_policy.py",
+    "release": "scripts/augmented_policy.py",
+    "sha256": "71c538ff2b88509795df47be86493842135cdf1c3142abc73b945b5dfe7a2538",
+    "unchanged": true
+  },
+  {
+    "source": "scripts/tiny_imagenet_data.py",
+    "release": "scripts/tiny_imagenet_data.py",
+    "sha256": "bf89a1365577370b9a2c58b15bd70b3af15c5c6e3e09f9c4f8a1b82bda5d21a3",
+    "unchanged": true
+  },
+  {
+    "source": "scripts/tiny_imagenet_training.py",
+    "release": "scripts/tiny_imagenet_training.py",
+    "sha256": "af690674b10671ee835df06acae9b0d9ee51b97f8f3b59ad6a978c996a1c52f2",
+    "unchanged": true
+  },
+  {
+    "source": "wnet/__init__.py",
+    "release": "wnet/__init__.py",
+    "sha256": "f2e029471020e83303fb2230d1898d30ad12939656ad1de3c4f4d6d886056598",
+    "unchanged": true
+  },
+  {
+    "source": "wnet/data.py",
+    "release": "wnet/data.py",
+    "sha256": "b10cbbf0526f252239c5e15c964d5d21377c1a535707fc09214e874c2ff6bd98",
+    "unchanged": true
+  },
+  {
+    "source": "wnet/pilot.py",
+    "release": "wnet/pilot.py",
+    "sha256": "28b250e9fb36a34b8b02d5722d73b3a8185097b5860d43a89d3ee535bd7b745b",
+    "unchanged": true
+  },
+  {
+    "source": "wnet/paired.py",
+    "release": "wnet/paired.py",
+    "sha256": "3ebbb6fc05564b1c2c7e20570a108e4aa343ae675d96c226c33b1126bf927357",
+    "unchanged": true
+  },
+  {
+    "source": "wnet/policy.py",
+    "release": "wnet/policy.py",
+    "sha256": "63859014b5bd2b7d73e3b48f671c96ebb3087ab2e07bfa87530fa5b07a81273c",
+    "unchanged": true
+  },
+  {
+    "source": "tests/test_paired.py",
+    "release": "tests/test_paired.py",
+    "sha256": "bd28ab19056653e51e6617d5d9e339c0fb2c956b085e38621e15e0ba584a5e1a",
+    "unchanged": true
+  },
+  {
+    "source": "tests/test_tiny_imagenet_training.py",
+    "release": "tests/test_tiny_imagenet_training.py",
+    "sha256": "2ab441d771e88d28836e1c0b4852fa32b31d53b7cfc78ac0fb3cac015d6a58d9",
+    "unchanged": true
+  },
+  {
+    "source": "tests/test_tiny_imagenet_data.py",
+    "release": "tests/test_tiny_imagenet_data.py",
+    "sha256": "a05fc42f1e8e9a9d22fa9b56c52365fdc3e1381c3bc203a5607deb843eeb342b",
+    "unchanged": true
+  },
+  {
+    "source": "results/posthoc_comparison_v1/source_data.csv",
+    "release": "source_data/posthoc_comparison_v1/source_data.csv",
+    "sha256": "bf977ac9719470578bee94a23b2d64857278142959f55bbbd970b113bb13640b",
+    "unchanged": true
+  },
+  {
+    "source": "results/posthoc_comparison_v1/sweep_source_data.csv",
+    "release": "source_data/posthoc_comparison_v1/sweep_source_data.csv",
+    "sha256": "6d117fba41d04ffeff5c95419527c73ccce112bc5a708074350809fb66d97d57",
+    "unchanged": true
+  },
+  {
+    "source": "results/memory_capacity_v1/source_data.csv",
+    "release": "source_data/memory_capacity_v1/source_data.csv",
+    "sha256": "594d43a0fa7c48734b581e34cf0395c14883a51cd821ef98b66f17293c50d1c8",
+    "unchanged": true
+  },
+  {
+    "source": "results/tiny_imagenet_v1/source_data.csv",
+    "release": "source_data/tiny_imagenet_v1/source_data.csv",
+    "sha256": "969d881f0be49196404589390a9160807c1d03fe9bcdc8be73f0491f6788efa1",
+    "unchanged": true
+  },
+  {
+    "source": "results/posthoc_comparison_v1/selection.json",
+    "release": "configs/frequency_selection.json",
+    "sha256": "d40fe8db155bbafba699a9a4a42d8a1536bdd62ef9b9126aaeb4f13b5089f1f6",
+    "unchanged": true
+  }
+]
